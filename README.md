@@ -1,5 +1,11 @@
 # AI_X_project
-I will train yolov11 with BDD-100K dataset
+
+
+데이터셋은 BDD - 100K 를 사용하려고 한다.
+공식 사이트는 http://bdd-data.berkeley.edu/download.html 이다.
+
+순서 설명하기  ------
+저기 사진에서 100K Images, Labels를 클릭해서 다운받아야 한다.
 
 
 YOLO에 데이터를 학습시키기 위해서는 YOLO format에 맞게 구조를 넣어주어야 한다.
