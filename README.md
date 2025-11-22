@@ -105,7 +105,7 @@ python3 converter.py
 
 
 
-5. 매칭이 완벽하게 끝났는지 확인하기 (옵션이지만 하는 것을 매우 권장한다.)
+5-1. 매칭이 완벽하게 끝났는지 확인하기 (옵션이지만 하는 것을 매우 권장한다.)
 
 실행 후 주피터 노트북을 통해 시각적으로 과연 결과와 matching이 잘 되었는지 확인할 수 있게 해 두었다.
 주피터 노트북을 실행하고 (기본 경로는 train들의 데이터들이 잘 matching이 되어 있는지 확인이 되어 있다.)
@@ -115,6 +115,26 @@ val 이나 test의 경우들도 matching 확인을 해보는 것을 권장한다
 
 위 와 같이 정상적으로 matching이 완료된 것을 볼 수 있다.
 
+5-2. 매칭 위치가 정확한지 확인해보기 
+
+파일 명들이 matching이 완벽하게 된걸 확인했다면 위와 같이 변환된 결과가 이미지 상에서 YOLO의 규칙에 맞게 잘 그려지는지 확인해봐야 한다.
+그러기 위해서는 
+
+bdd_to_yolo 디렉토리에 들어간 후
+
+python3 viz_yolo_labels.py
+
+위 실행을 마치고 난 후 실행한 위치에 yolo_viz 폴더가 생성되었을 것이다.
+yolo_viz안에서 다음과 같이 
+<img width="1281" height="757" alt="image" src="https://github.com/user-attachments/assets/01a175e7-33d6-4978-909b-9f3d2825b1d9" />
+
+잘 뜨는 것을 확인 할 수 있다.
+
+
+<img width="1281" height="757" alt="image" src="https://github.com/user-attachments/assets/be31c1f9-a7cf-4cd7-8d7b-b147ca044204" />
+
+
+bou
 
 -------------------------------------------------------------
 
