@@ -2,12 +2,33 @@
 
 
 데이터셋은 BDD - 100K 를 사용하려고 한다.
-공식 사이트는 http://bdd-data.berkeley.edu/download.html 이다.
+YOLO 모델은 v11을 이용하였다.
 
-순서 설명하기  ------
-저기 사진에서 100K Images, Labels를 클릭해서 다운받아야 한다.
+BDD-100K 
+공식 사이트는 http://bdd-data.berkeley.edu/download.html 이고 
+여기서 데이터셋을 다운 받을 수 있다!!!
+
+YOLO 
+github :
+document : 
 
 
+먼저 BDD-100k 데이터셋 다운에 대해서 설명할 예정이다.
+
+
+<img width="965" height="409" alt="image" src="https://github.com/user-attachments/assets/a101e81c-80c8-4474-9c47-fa2862b275ae" />
+
+위 사진에서 100K Images, Labels를 클릭해서 다운받아야 한다.
+원래는 사진 용량을 위해서 10K Images 를 다운 받았으나 학습하는중에 계속 오류가 발생하여 확인해보니 
+10K image/train에 사진중 label이 없는것들이 많아서 학습이 되지 않는다. 
+<img width="830" height="380" alt="image" src="https://github.com/user-attachments/assets/89cdf7c6-2e19-45fe-b0dc-51da99bf9697" />
+
+위와 같은 시행착오를 피하기 위해서는 용량과 시간이 오래 걸리더라도 100K Images 와 Labels를 받는것을 권장한다.
+
+
+
+
+이제 다운받은 데이터셋을 바로 YOLO에 학습시키면 좋을 것 깉ㅈ;민 
 YOLO에 데이터를 학습시키기 위해서는 YOLO format에 맞게 구조를 넣어주어야 한다.
 yolo에 custom 한 데이터셋을 넣기 위해서는 크게 두가지를 충족 시켜야 한다.
 
