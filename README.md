@@ -16,6 +16,8 @@ document :
 먼저 BDD-100k 데이터셋 다운에 대해서 설명할 예정이다.
 
 
+
+
 <img width="965" height="409" alt="image" src="https://github.com/user-attachments/assets/a101e81c-80c8-4474-9c47-fa2862b275ae" />
 
 위 사진에서 100K Images, Labels를 클릭해서 다운받아야 한다.
@@ -24,6 +26,8 @@ document :
 <img width="830" height="380" alt="image" src="https://github.com/user-attachments/assets/89cdf7c6-2e19-45fe-b0dc-51da99bf9697" />
 
 위와 같은 시행착오를 피하기 위해서는 용량과 시간이 오래 걸리더라도 100K Images 와 Labels를 받는것을 권장한다.
+
+
 
 
 
