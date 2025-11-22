@@ -60,6 +60,8 @@ source ./venv/bin/activate
 cd bdd_to_yolo
 pip3 install -r requirements.txt
 pip install PyYAML
+pip install opencv-python
+
 
 4-1. BDD-100K 데이터셋 중 필요한 부분 필터링
 
