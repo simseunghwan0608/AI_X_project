@@ -1,0 +1,7 @@
+bdd100k_images_100k/
+bdd100k_labels/
+bdd_to_yolo/bdd100k_subset_filtered/
+bdd_to_yolo/dataset_yolo_converted/
+scripts/runs/
+scripts/yolo11n.pt
+venv/

@@ -1,0 +1,21 @@
+# ======================================
+# BDD100K Subset 생성용 설정 파일
+# ======================================
+
+paths:
+  images_root: "../bdd100k_images_100k/100k"
+  labels_root: "../bdd100k_labels/100k"
+  output_root: "../bdd_to_yolo/bdd100k_subset_filtered"
+
+filter:
+  weather: "clear"
+  scene: "any"        # "any"는 필터 무시
+  timeofday: "daytime"
+
+samples:
+  num_train: 3000
+  num_val: 500
+  num_test: 500
+
+seed: 123
+
